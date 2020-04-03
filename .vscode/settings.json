@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "C:\\Users\\javie\\.virtualenvs\\API-HBQNjfV6\\Scripts\\python.exe"
+    "python.pythonPath": "C:\\Users\\javie\\.virtualenvs\\API-HBQNjfV6\\Scripts\\python.exe",
+    "git.ignoreLimitWarning": true
 }
