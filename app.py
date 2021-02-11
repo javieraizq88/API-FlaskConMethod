@@ -11,10 +11,12 @@ app = Flask(__name__) # atributo obligatorio
 app.url_map.strict_slashes = False # permite cargar los metodos con o sin slash
 app.config['DEBUG'] = True # para ver los errores de la app
 app.config['ENV'] = 'development' # entorno de la app o se puede usar 'production' cuando ya se publique
+
 # para desarrollo usando sqlite
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(BASE_DIR, "db.sqlite3") # para decir q tipo de BBDD va a ser (sqlite)
 #app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False # muestra los tracking de la BBDD
 # para produccion usando MySQL
+
 app.config['SQLALCHEMY_DATABASE_URI'] = '' 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False 
 
